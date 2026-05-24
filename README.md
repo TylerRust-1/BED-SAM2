@@ -54,7 +54,7 @@ SAM2-DUNet is adapted from SAM2-UNet and consists of:
 
 ## Depth Edge Formulation
 
-![Structured Edge Map](assets/structured_edges.jpg)
+![Structured Edge Map](assets/structured_edges.png)
 
 Given normalized depth \( D \in [0, 1] \), a centered depth representation is defined as:
 
