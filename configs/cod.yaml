@@ -1,0 +1,16 @@
+# Camouflaged Object Detection (COD)
+# Run: python train.py --config configs/cod.yaml
+
+# --- task-specific ---
+train_path: 'C:\Projects\datasets\COD\TrainDataset'
+save_path: '.\checkpoints\COD\'
+epoch: 30
+lr: 5.0e-4
+
+# --- shared ---
+hiera_path: '.\sam2\sam2.1_hiera_large.pt'
+checkpoint: ''        # optional path to resume / fine-tune from
+size: 352             # 352, 512, 1024
+batch_size: 24
+weight_decay: 5.0e-4
+num_workers: 4

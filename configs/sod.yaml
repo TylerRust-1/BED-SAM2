@@ -1,0 +1,16 @@
+# Salient Object Detection (SOD)
+# Run: python train.py --config configs/sod.yaml
+
+# --- task-specific ---
+train_path: 'C:\Projects\datasets\SOD\DUTS_HRSOD_UHRSD'
+save_path: '.\checkpoints\SOD\'
+epoch: 5
+lr: 1.0e-4
+
+# --- shared ---
+hiera_path: '.\sam2\sam2.1_hiera_large.pt'
+checkpoint: ''        # optional path to resume / fine-tune from
+size: 352             # 352, 512, 1024
+batch_size: 24
+weight_decay: 5.0e-4
+num_workers: 4
