@@ -123,6 +123,7 @@ See the paper for full quantitative comparisons and ablation studies.
 
 If you find this work useful, please cite:
 
+```bibtex
 @misc{rust2026bedsam2boundaryenhanceddepthsam2monocular,
       title={BED-SAM2: Boundary-Enhanced-Depth SAM2 via Monocular Geometric Priors}, 
       author={Tyler Rust and Dara McNally and Kyle O'Donnell and Colin Kelly and Chandra Kambhamettu},
@@ -132,3 +133,4 @@ If you find this work useful, please cite:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2605.24893}, 
 }
+```
